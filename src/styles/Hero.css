@@ -1,0 +1,114 @@
+/* Hero section container */
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 10px;
+  }
+  
+  .hero-section.flex-row {
+    flex-direction: row;
+  }
+  
+  .hero-section.flex-col {
+    flex-direction: column;
+  }
+  
+  /* Left side text content */
+  .hero-left {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 28px;
+  }
+  
+  .hero-title {
+    margin-top: 10px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: calc(8 * 1rem); /* Example scaling */
+    font-weight: bold;
+  }
+  
+  .hero-title .highlight {
+    position: relative;
+    background-color: white;
+    white-space: nowrap;
+    z-index: 10;
+    padding-right: 10px;
+  }
+  
+  .hero-title .brand {
+    color: var(--coral-blue);
+    display: inline-block;
+    margin-top: 3px;
+  }
+  
+  .hero-description {
+    color: var(--slate-grey);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    max-width: 500px;
+  }
+  
+  /* Statistics section */
+  .hero-statistics {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    gap: 5px;
+  }
+  
+  .hero-statistics-item {
+    font-family: 'Palanquin', sans-serif;
+  }
+  
+  .hero-statistics-item .value {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .hero-statistics-item .label {
+    line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--slate-grey);
+  }
+  
+  /* Right side shoe image */
+  .hero-right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    background: linear-gradient(to bottom, #cce7ff, #e6faf5);
+  }
+  
+  .hero-right img {
+    object-fit: contain;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Shoe cards */
+  .hero-shoes {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: -5%;
+    left: 10%;
+    padding: 6px;
+  }
+  
