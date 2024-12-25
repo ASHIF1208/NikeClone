@@ -27,6 +27,12 @@
     padding: 28px;
   }
   
+  .all-weather-text {
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #5A9BD5;
+  }
+   
   .hero-title {
     margin-top: 10px;
     font-family: 'Palanquin', sans-serif;

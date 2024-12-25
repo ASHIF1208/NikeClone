@@ -1,0 +1,90 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section h3 span {
+    color: #4caf50;
+}
+
+.section p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.review-card .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-card .rating img {
+    margin-right: 5px;
+}
+
+.review-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 30px 15px;
+    }
+
+    .review-card {
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    .review-card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .review-card h3 {
+        font-size: 1rem;
+    }
+
+    .review-card p {
+        font-size: 0.9rem;
+    }
+}

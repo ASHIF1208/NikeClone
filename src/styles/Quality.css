@@ -1,0 +1,65 @@
+.quality-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+    padding: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-family: 'Palanquin', sans-serif;
+    line-height: 1.5;
+}
+
+.highlight-text {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    padding-right: 10px;
+}
+
+.coral-text {
+    color: #FF7043; /* Coral Blue */
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.description-text {
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #7B8A8E; /* Slate Grey */
+    line-height: 1.5;
+    max-width: 700px;
+}
+
+.button-container {
+    margin-top: 2.75rem;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #cce5ff, #d4f0ff);
+    border-radius: 8px;
+}
+
+.shoe-image {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+    object-fit: contain;
+}

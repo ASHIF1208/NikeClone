@@ -1,13 +1,13 @@
 import React from "react";
 
-const Button = (
+const Button = ({
     label,
     iconUrl,
     backgroundColor,
     textColor,
     borderColor,
     fillWidth,
-) => {
+}) => {
     return <>
         <button 
         className={`

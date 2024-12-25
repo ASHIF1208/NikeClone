@@ -4,13 +4,41 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+.navbar-header {
+  padding: 2rem;
+}
   
-  
-  /* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
- 
+.hero-section {
+  padding-bottom: 3rem;
+}
+
+.popular-products-section {
+  padding: 3rem 2rem;
+}
+
+.quality-section {
+  padding: 3rem 2rem;
+}
+.services-section {
+  padding: 2.5rem 2rem;
+}
+
+.deals-section {
+  padding: 3rem 2rem;
+}
+
+.customer-reviews-section {
+  padding: 3rem 2rem;
+  background-color: rgb(245 246 255 / var(--tw-bg-opacity));
+}
+
+.subscribe-section {
+  padding: 2rem 4rem;
+  width: 100%;
+}
+
+.footer-section {
+  padding: 3rem 2rem 2rem;
+  background-color: black;
+}

@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import arrowRight from "../assets/icons/arrow-right.svg"
 import { statistics } from "../constants";
 import bigShoe1 from "../assets/images/big-shoe1.png";
-import ShoeCard from "../components/shoeCard";
+import ShoeCard from "../components/ShoeCard";
 import { shoes } from "../constants/index";
 import "../styles/Hero.css";
 
@@ -13,7 +13,7 @@ const Hero = () => {
     return <>
       <section id="home" className="hero-section flex-row flex-col">  
       <div className="hero-left">
-        <p className="text-xl font-monserrat text-coral-blue">
+        <p className="all-weather-text">
           All Weather Collections
         </p>
         <h1 className="hero-title">
@@ -23,7 +23,7 @@ const Hero = () => {
         <p className="hero-description">
           Explore Nike'world of premium sportswear and athlletic footwear. Discover top-quality products designed to enhance your athletic performance and style. Shop the latest collections  and enjoy unbeatable comfort and style. Join the Nike community today.
         </p>
-        <Button label={'Shop Now'} iconUrl={arrowRight} />
+        <Button label="Shop Now" iconUrl={arrowRight} />
 
         <div className="hero-statistics">
           {statistics.map((item, index) => (
